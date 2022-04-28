@@ -1,7 +1,7 @@
 alias python='/usr/bin/python3'
 alias py='/usr/bin/python3'
 alias pip='python -m pip'
-alias ses='sesam -scheduler-max-run-time 4000 -print-scheduler-log -vv'
+alias ses='sesam -scheduler-max-run-time 4000 -print-scheduler-log -vv -scheduler-mode poll -scheduler-request-mode async'
 alias sespr='ses reset && ses test'
 alias elvia='cd /home/andreas/Sesam/Elvia/Apps/sesam-master-node-config/node'
 

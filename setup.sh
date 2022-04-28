@@ -12,4 +12,4 @@ rm -f -- $HOME/.zshrc
 
 ln -s $dir/.zshrc $HOME/.zshrc
 ln -s $dir/.bash_aliases $HOME/.bash_aliases
-ln -s $dir/.bash_aliases $HOME/.p10k.zsh
+ln -s $dir/.p10k.zsh $HOME/.p10k.zsh
