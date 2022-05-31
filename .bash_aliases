@@ -1,7 +1,9 @@
+alias less='less +G'
 alias python='/usr/bin/python3'
 alias py='/usr/bin/python3'
 alias pip='python -m pip'
 alias ses='sesam -scheduler-max-run-time 4000 -print-scheduler-log -vv -scheduler-mode poll -scheduler-request-mode async'
+alias sesold='sesam -scheduler-max-run-time 4000 -print-scheduler-log -vv'
 alias sespr='ses reset && ses test'
 alias elvia='cd /home/andreas/Sesam/Elvia/Apps/sesam-master-node-config/node'
 
@@ -13,3 +15,4 @@ alias gil="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset 
 alias gs='git status'
 alias gc='git commit -m'
 alias gp='git push'
+alias gbd='git br-delete-useless-force'
